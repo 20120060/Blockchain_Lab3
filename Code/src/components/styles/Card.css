@@ -1,0 +1,136 @@
+/* Card.css */
+
+.align-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.card {
+  flex: 0 0 calc(25% - 20px);
+  min-width: 200px;
+  /* Adjust the minimum width as needed */
+  margin: 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.3s;
+  background-color: rgba(89, 111, 183, 0.3);
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(89, 111, 183, 0.7);
+  /* Add a glowing box shadow */
+}
+
+.create-proposal-button {
+  margin: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(89, 111, 183, 0.3);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.create-proposal-button:hover {
+  transform: scale(1.05);
+
+  background-color: rgba(89, 111, 183, 0.5);
+  box-shadow: 0 0 10px rgba(89, 111, 183, 0.7);
+  /* Add a glowing box shadow */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  margin: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.card h2,
+.card p {
+  word-wrap: break-word;
+
+}
+
+.card .info-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .status {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.card .name {
+  margin: 10px 0;
+}
+
+.card .description {
+  margin: 10px 20px;
+  opacity: 0.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.card .time {
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card .proposer {
+  margin-top: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+/* Add additional card styling as needed */
+
+.search-container {
+  margin: 50px 0;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'MonaspaceNeon', sans-serif;
+
+}

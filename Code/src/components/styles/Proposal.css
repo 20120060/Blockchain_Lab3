@@ -1,0 +1,62 @@
+.voteProposal {
+  max-width: 500px;
+  margin: auto;
+  /* Set margin to auto to center horizontally */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(89, 111, 183, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.voteProposal:hover {
+  box-shadow: 0 0 10px rgba(89, 111, 183, 0.7);
+  /* Add a glowing box shadow */
+}
+
+.vote-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vote-container {
+  text-align: center;
+}
+
+.vote-button-yes {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #4caf50;
+  /* Green for Yes and Red for No */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vote-button-no {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #f44336;
+  /* Green for Yes and Red for No */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.refresh-button {
+  margin-top: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.voteProposal .message {
+  font-style: italic;
+}

@@ -1,0 +1,68 @@
+.createProposal {
+    max-width: 500px;
+    margin: auto;
+    /* Set margin to auto to center horizontally */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(89, 111, 183, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.createProposal:hover {
+    box-shadow: 0 0 10px rgba(89, 111, 183, 0.7);
+    /* Add a glowing box shadow */
+}
+
+.createProposal h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.createProposal form {
+    display: grid;
+    gap: 15px;
+}
+
+.createProposal label {
+    font-weight: bold;
+}
+
+.createProposal input,
+.createProposal textarea {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'MonaspaceNeon', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.createProposal button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(89, 111, 183, 0.5);
+
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+}
+
+.createProposal button:hover {
+    transform: scale(1.05);
+    background-color: #007bff;
+
+    box-shadow: 0 0 10px rgba(89, 111, 183, 0.7);
+    /* Add a glowing box shadow */
+}
+
+.createProposal .message {
+    font-style: italic;
+}
